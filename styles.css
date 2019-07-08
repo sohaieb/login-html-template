@@ -1,0 +1,83 @@
+body {
+    background: url(assets/background.jpg);
+}
+div.card {
+    margin-top: 15%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px -10px;
+}
+div.card-body {
+    border-radius: 15px;
+    padding: 0px;
+}
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 30px!important;
+}
+p.card-text {
+    padding: 10px 40px 1px 40px;
+}
+div.card-header {
+    border-radius: 15px 15px 0px 0px!important;
+    width: 100%;
+    background: #57b847;
+    padding: 30px;
+}
+form.form{
+    padding: 40px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #57b847;
+    border-color: #57b847;
+}
+.btn-primary:hover {
+    background-color: #105547;
+    border-color: #105547;
+}
+
+input.form-control::placeholder {
+    color: #678c5e !important;
+}
+input.form-control{
+    color: #12320b !important;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.forgot {
+    color: #8d8d8d;
+}
+
+.forgot a {
+    color: #64bb5c;
+}
+.upper {
+    text-transform: uppercase;
+}
+a.link {
+    display: block;
+    font-weight: bold;
+    color: #55b144;
+    text-decoration: none;
+    -webkit-transition: color .5s; /* Safari prior 6.1 */
+  transition: color .5s;
+}
+a.link:hover {
+    color: #12320b;
+}
+.signup{
+    text-align: center;
+    padding: 20px;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.copyright{
+    color: #12320b;
+    margin-top: 10px;
+    text-align: center
+}
